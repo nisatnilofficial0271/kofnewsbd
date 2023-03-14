@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News Website</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,500;0,600;0,800;1,300&family=Josefin+Sans:ital,wght@0,300;0,700;1,300;1,600&family=Raleway:ital,wght@1,400;1,500;1,600&family=Rampart+One&family=Roboto+Mono:ital,wght@0,400;1,700&family=Sono:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Styles for Header */
+header {
+  font-family: 'Genos', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rampart One', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Sono', sans-serif;
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+header nav ul {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+header nav ul li {
+margin-right: 20px;
+}
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+/* Styles for Main */
+main {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 20px 0;
+padding: 0 20px;
+}
+section {
+width: 30%;
+}
+section.latest-news .news {
+background-color: #f2f2f2;
+margin-bottom: 20px;
+padding: 10px;
+}
+section.latest-news .news img {
+max-width: 100%;
+}
+section.latest-news .news h3 {
+margin: 10px 0;
+}
+section.latest-news .news p {
+line-height: 1.5;
+}
+section.news-categories ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+section.news-categories ul li {
+margin-bottom: 10px;
+}
+section.news-categories ul li a {
+color: #333;
+text-decoration: none;
+transition: color 0.3s;
+}
+section.news-categories ul li a:hover {
+color: #ff6347;
+}
+section.popular-news .news {
+margin-bottom: 20px;
+padding: 10px;
+}
+section.popular-news .news img {
+  max-width: 100%;
+}
+section.popular-news .news h3 {
+margin: 10px 0;
+}
+section.popular-news .news p {
+line-height: 1.5;
+}
+
+/* Styles for Footer */
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+	<header>
+		<nav>
+		  <a href="index.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBKFqvQ7mxUqRNtpL_9c18eO0i0m90agzGEPtBwbowI2rg9vqkg0bHed9-veM76Zsymt3s_0WttdPGAdKAZuX2mYGQddN3fapUjNIpVHRd6kaKe1aPaBiiyyuxm6DfB0T8TE4c5PUuwGuKErz-95aykqe1rX4Sib5sQ3qgGaC2vcsqnZZEOmXe4oWgnw/s3264/20230314_201706.png" height="50" width="150"</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sports</a></li>
+				<li><a href="#">Entertainment</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="latest-news">
+			<h2>Latest News</h2>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcb8Y-HZWdCzaMHR5QhAZvjooUlmPwxgIUkbN1ChP57z2zYItDqqz8QuRLPF1-de17yVkKhXlDbEjSSWMgyRpTPCDZ26qtMu2sd592k710HvEvsJ3xedSTnj-IeoiX7cckyKNCuJFFSf-_KC-Mrj8uogTbrESF5nIkxmOC8rSCqCpAvuUNOATIObEQxw/s300/52865f50-bf5b-44fd-a2d5-1d245e45d241_nn.jpg" alt="News Image">
+				<h3><a href="#">Why to quit smoking?</a></h3>
+				<p>Md. Amanullah, an engineer by profession, used to smoke 10 cigarettes a day.It has been three years since he gave up this habit.</p>
+			</div>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnHYybuBQHzwYXLO905yjDvp5FOyjqQiTq3Whhqd3a5tF2LbqkAxNmlyQdbpx8A_X4AF_vz0pVl9w6dnvJ0LqFBzBpG0ivBGlBQLIhRkBgsm9If5CgtQOtx-KE7gJ6SJRWCN2gFeu_0mmgzrYfHTVqKOrgNW04fuExF39JCUfLoVgc3RW2PEak9TwPMg/s800/49f3cd83-5dc2-47dc-b181-d05012d513f4_nn.jpg" alt="News Image">
+				<h3><a href="#">Post-smoking status</a></h3>
+				<p>German-based press Deutsche Welle published a research report on how the body feels after quitting smoking.It has been</p>
+			</div>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcb8Y-HZWdCzaMHR5QhAZvjooUlmPwxgIUkbN1ChP57z2zYItDqqz8QuRLPF1-de17yVkKhXlDbEjSSWMgyRpTPCDZ26qtMu2sd592k710HvEvsJ3xedSTnj-IeoiX7cckyKNCuJFFSf-_KC-Mrj8uogTbrESF5nIkxmOC8rSCqCpAvuUNOATIObEQxw/s300/52865f50-bf5b-44fd-a2d5-1d245e45d241_nn.jpg" alt="News Image">
+				<h3><a href="#">Why to quit smoking?</a></h3>
+				<p>Md. Amanullah, an engineer by profession, used to smoke 10 cigarettes a day.It has been three years since he gave up this habit</p>
+			</div>
+		</section>
+
+	<section class="latest-news">
+			<h2>Future News</h2>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnHYybuBQHzwYXLO905yjDvp5FOyjqQiTq3Whhqd3a5tF2LbqkAxNmlyQdbpx8A_X4AF_vz0pVl9w6dnvJ0LqFBzBpG0ivBGlBQLIhRkBgsm9If5CgtQOtx-KE7gJ6SJRWCN2gFeu_0mmgzrYfHTVqKOrgNW04fuExF39JCUfLoVgc3RW2PEak9TwPMg/s800/49f3cd83-5dc2-47dc-b181-d05012d513f4_nn.jpg" alt="News Image">
+				<h3><a href="#">Post-smoking status</a></h3>
+				<p>German-based press Deutsche Welle published a research report on how the body feels after quitting smoking.It has been</p>
+			</div>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcb8Y-HZWdCzaMHR5QhAZvjooUlmPwxgIUkbN1ChP57z2zYItDqqz8QuRLPF1-de17yVkKhXlDbEjSSWMgyRpTPCDZ26qtMu2sd592k710HvEvsJ3xedSTnj-IeoiX7cckyKNCuJFFSf-_KC-Mrj8uogTbrESF5nIkxmOC8rSCqCpAvuUNOATIObEQxw/s300/52865f50-bf5b-44fd-a2d5-1d245e45d241_nn.jpg" alt="News Image">
+				<h3><a href="#">News Headline</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt commodo tortor, ac commodo dolor finibus eu. Aliquam erat volutpat.</p>
+			</div>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnHYybuBQHzwYXLO905yjDvp5FOyjqQiTq3Whhqd3a5tF2LbqkAxNmlyQdbpx8A_X4AF_vz0pVl9w6dnvJ0LqFBzBpG0ivBGlBQLIhRkBgsm9If5CgtQOtx-KE7gJ6SJRWCN2gFeu_0mmgzrYfHTVqKOrgNW04fuExF39JCUfLoVgc3RW2PEak9TwPMg/s800/49f3cd83-5dc2-47dc-b181-d05012d513f4_nn.jpg" alt="News Image">
+				<h3><a href="#">News Headline</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt commodo tortor, ac commodo dolor finibus eu. Aliquam erat volutpat.</p>
+			</div>
+		</section>
+
+	<section class="latest-news">
+			<h2>World News</h2>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcb8Y-HZWdCzaMHR5QhAZvjooUlmPwxgIUkbN1ChP57z2zYItDqqz8QuRLPF1-de17yVkKhXlDbEjSSWMgyRpTPCDZ26qtMu2sd592k710HvEvsJ3xedSTnj-IeoiX7cckyKNCuJFFSf-_KC-Mrj8uogTbrESF5nIkxmOC8rSCqCpAvuUNOATIObEQxw/s300/52865f50-bf5b-44fd-a2d5-1d245e45d241_nn.jpg" alt="News Image">
+				<h3><a href="#">News Headline</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt commodo tortor, ac commodo dolor finibus eu. Aliquam erat volutpat.</p>
+			</div>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnHYybuBQHzwYXLO905yjDvp5FOyjqQiTq3Whhqd3a5tF2LbqkAxNmlyQdbpx8A_X4AF_vz0pVl9w6dnvJ0LqFBzBpG0ivBGlBQLIhRkBgsm9If5CgtQOtx-KE7gJ6SJRWCN2gFeu_0mmgzrYfHTVqKOrgNW04fuExF39JCUfLoVgc3RW2PEak9TwPMg/s800/49f3cd83-5dc2-47dc-b181-d05012d513f4_nn.jpg" alt="News Image">
+				<h3><a href="#">News Headline</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt commodo tortor, ac commodo dolor finibus eu. Aliquam erat volutpat.</p>
+			</div>
+			<div class="news">
+				<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcb8Y-HZWdCzaMHR5QhAZvjooUlmPwxgIUkbN1ChP57z2zYItDqqz8QuRLPF1-de17yVkKhXlDbEjSSWMgyRpTPCDZ26qtMu2sd592k710HvEvsJ3xedSTnj-IeoiX7cckyKNCuJFFSf-_KC-Mrj8uogTbrESF5nIkxmOC8rSCqCpAvuUNOATIObEQxw/s300/52865f50-bf5b-44fd-a2d5-1d245e45d241_nn.jpg" alt="News Image">
+				<h3><a href="#">News Headline</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt commodo tortor, ac commodo dolor finibus eu. Aliquam erat volutpat.</p>
+			</div>
+		</section>
+</main>
+<footer>
+	<p>&copy; Copyright 2015-2023 - KOF News BD ❤️ All rights reserved.</p>
+</footer>
